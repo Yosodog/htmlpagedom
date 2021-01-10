@@ -1,19 +1,12 @@
 {
-    "name":"wa72/htmlpagedom",
+    "name":"yosodog/htmlpagedom",
     "description":"jQuery-inspired DOM manipulation extension for Symfony's Crawler",
     "keywords":["HTML", "DOM", "Crawler"],
-    "homepage":"http://github.com/wasinger/htmlpagedom",
+    "homepage":"http://github.com/yosodog/htmlpagedom",
     "type":"library",
     "license":"MIT",
-    "authors":[
-        {
-            "name":"Christoph Singer",
-            "email":"singer@webagentur72.de",
-            "homepage":"http://www.webagentur72.de"
-        }
-    ],
     "require":{
-        "php":">=7.1.0",
+        "php":">=7.1.0 | ^8.0",
         "symfony/dom-crawler":"^3.4|^4|^5",
         "symfony/css-selector":"^3.4|^4|^5"
     },
